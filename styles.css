@@ -75,7 +75,7 @@
   position: relative;
   margin: auto;
   text-align: center;
-  transform: translateY(150%);
+  transform: translateY(100%);
 }
 
 .host h1 {
@@ -89,5 +89,21 @@
   color: var(--color-white-300);
   font-size: 1rem;
   font-weight: 100;
+  margin-bottom: 2rem;
 }
 
+.btn {
+  background: transparent;
+  padding: 12px 1rem;
+  margin-right: 1rem;
+  outline: none;
+  border: 2px solid var(--color-primary-200);
+  border-radius: 1.5rem;
+  color: var(--color-white-100);
+}
+
+.btn span {
+  width: 100%;
+  background: var(--color-primary-200);
+  
+}
