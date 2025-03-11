@@ -94,16 +94,35 @@
 
 .btn {
   background: transparent;
-  padding: 12px 1rem;
+  width: 200px;
+  padding: 12px 0;
+  text-align: center;
   margin-right: 1rem;
   outline: none;
   border: 2px solid var(--color-primary-200);
   border-radius: 1.5rem;
   color: var(--color-white-100);
+  position: relative;
+  cursor: pointer;
 }
 
 .btn span {
-  width: 100%;
+  width: 0;
+  height: 100%;
   background: var(--color-primary-200);
+  border-radius: 1.5rem;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  width: 100%;
   
 }
+
+.btn:hover {
+  border: none;
+} 
