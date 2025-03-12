@@ -115,7 +115,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .btn:hover span {
